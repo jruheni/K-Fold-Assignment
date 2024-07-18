@@ -1,4 +1,4 @@
-# K-Fold-Assignment
+# K-Fold Assignment
 
 ## Description
 The objective of K-Fold Cross-Validation is assesing the performance of K-Nearest Neighbor on a given dataset, in this case, the MNIST dataset. 
