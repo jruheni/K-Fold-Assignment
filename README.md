@@ -2,7 +2,8 @@
 
 ## Description
 The objective of K-Fold Cross-Validation is assesing the performance of K-Nearest Neighbor on a given dataset, in this case, the MNIST dataset. 
-* The MNIST dataset is a standard benchmark in machine learning for handwritten digit recognition. Fetching this dataset provides a robust and well-known set of data for testing classification algorithms.
+* The MNIST dataset is a standard benchmark in machine learning for handwritten digit recognition. This dataset provides a robust and well-known set of data for testing classification algorithms.
+
 By splitting the data into multiple folds and training/testing the model on each fold, it ensures that the model’s performance is not dependent on a particular train-test split. This provides a more generalizable estimate of the model’s accuracy.
 
 The KFold object has 10 splits, which means the data is divided into 10 parts, and the model is trained and tested 10 times, each time with a different fold as the test set and the remaining folds as the training set. This helps in obtaining a comprehensive performance metric.
